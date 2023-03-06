@@ -1,0 +1,20 @@
+{
+    "extends": "@quasar/app/tsconfig-preset",
+    "compilerOptions": {
+        "jsx": "preserve",
+        "types": ["quasar", "node"],
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "strictNullChecks": true,
+        "paths": {
+          "@/*": [
+            "src/*"
+          ],
+        },
+    }
+  }
+  
+  
