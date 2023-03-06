@@ -68,8 +68,6 @@ function onSpaceKeyUp(): void {
 }
 
 function onF6KeyUp(): void {
-    console.log(showCircle.value);
-    console.log(!isSpacePressed.value);
     if (showCircle.value && !isSpacePressed.value) {
         datef6KeyDown.value = new Date();
         showResults();

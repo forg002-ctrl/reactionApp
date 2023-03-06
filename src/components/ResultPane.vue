@@ -25,6 +25,9 @@ function toColorSelector(): void {
         {{ `Mechanical Reaction Time: ${props.mechanicalReactionTime}` }}
     </h6>
     <h6 class="text-h5 text-center">
+        {{ `Latent Reaction Time: ${props.generalReactionTime - props.mechanicalReactionTime}` }}
+    </h6>
+    <h6 class="text-h5 text-center">
         {{ `General Reaction Time: ${props.generalReactionTime}` }}
     </h6>
     <div class="q-pa-lg" style="display:flex; justify-content: center;">
